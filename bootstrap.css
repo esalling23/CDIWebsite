@@ -1153,6 +1153,7 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+
 }
 hr {
   margin-top: 20px;
@@ -6605,9 +6606,10 @@ button.close {
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(198, 219, 255, 1);
+    font-size: 24px;
 }
 #custom-bootstrap-menu.navbar-default {
-    font-size: 14px;
+    font-size: 18px;
     background-color: rgba(30, 75, 153, 1);
     border-width: 0px;
     border-radius: 0px 0px 4px 4px;
