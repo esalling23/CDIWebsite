@@ -8,6 +8,17 @@ body {
   background-color: rgba(30, 75, 153, 1);
 }
 
+#sitemap.row li {
+  list-style-type: none;
+
+}
+#bubbles.row {
+  margin-bottom: 5%;
+}
+#bubble.col-lg-3 {
+  text-align: center;
+
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -40,8 +51,8 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
-  padding-bottom: 400px;
+  height: 600px;
+  padding-bottom: 0px;
   margin-bottom: 60px;
   margin-top: -20px;
   
@@ -64,7 +75,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 600px;
   background-color: rgba(198, 219, 255, 1);
 }
 .carousel-inner > .item > img {
