@@ -7,6 +7,9 @@
 #sitemap {
   margin: 1%;
 }
+#adapt.tab-content {
+  margin-top: 2%;
+}
 
 #cdiForms.jumbotron {
   padding-right: 5%;
@@ -6637,23 +6640,32 @@ button.close {
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(198, 219, 255, 1);
     font-size: 24px;
+    left: 0;
+    margin: 0;
+    padding: 0;
 }
 #custom-bootstrap-menu.navbar-default {
-    font-size: 18px;
+    font-size: 22px;
     background-color: rgba(30, 75, 153, 1);
     border-width: 0px;
     border-radius: 0px 0px 4px 4px;
+    margin: 10px;
+    padding: 0px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li {
     vertical-align: bottom;
     display: inline-block;
     height: 90px;
+
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: rgba(200, 200, 200, 1);
     background-color: rgba(248, 248, 248, 0);
     display: inline-block;
     vertical-align: bottom;
+    line-height:45px;
+    padding-right:10px;
+    padding-left:10px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
