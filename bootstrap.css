@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+#sitemap {
+  margin: 1%;
+}
 
 #cdiForms.jumbotron {
   padding-right: 5%;
@@ -4008,22 +4011,28 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li {
   float: left;
   height: 60px;
+  margin: 2px;
+  
 }
 .nav-pills > li > a {
   border-radius: 4px;
   height: 60px;
-  font-size: 24px;
-  color: gray;
+  font-size: 28px;
+  color: rgba(200, 200, 200, 1);
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(200, 200, 200, 1);
 }
 .nav-pills > li + li {
   margin-left: 2px;
 }
-.nav-pills > li > a,
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
   color: white;
-
-
+  background-color: rgba(30, 75, 153, 1);
+  border: 1px;
+  border-style: solid;
+  border-color: white;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
@@ -6635,9 +6644,16 @@ button.close {
     border-width: 0px;
     border-radius: 0px 0px 4px 4px;
 }
+#custom-bootstrap-menu.navbar-default .navbar-nav>li {
+    vertical-align: bottom;
+    display: inline-block;
+    height: 90px;
+}
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: gray;
+    color: rgba(200, 200, 200, 1);
     background-color: rgba(248, 248, 248, 0);
+    display: inline-block;
+    vertical-align: bottom;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
