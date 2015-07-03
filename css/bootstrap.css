@@ -11,17 +11,6 @@
   margin-top: 2%;
 }
 
-#alphabet >li > a{
-  line-height: 40px;
-  height: 40px;
-  color: green;
-}
-#alphabet >li {
-  line-height: 40px;
-  height: 40px;
-
-}
-
 #cdiForms.jumbotron {
   padding-right: 5%;
   padding-left: 5%;

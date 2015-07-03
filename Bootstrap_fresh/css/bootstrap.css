@@ -3,50 +3,16 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-#sitemap {
-  margin: 1%;
-}
-#adapt.tab-content {
-  margin-top: 2%;
-}
-
-#alphabet >li > a{
-  line-height: 40px;
-  height: 40px;
-  color: green;
-}
-#alphabet >li {
-  line-height: 40px;
-  height: 40px;
-
-}
-
-#cdiForms.jumbotron {
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-top: 0;
-  margin-top: 0;
-}
-
-#Copyright {
-  padding-left: 5%;
-  padding-right: 5%;
-
-}
 html {
-  background-color: rgba(30, 75, 153, 1);
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-
 body {
-
   margin: 0;
-  height: 100%;
 }
-
 article,
 aside,
 details,
@@ -1135,13 +1101,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #72A6FF;
+  color: #337ab7;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #C6DBFF;
-  text-decoration: none;
+  color: #23527c;
+  text-decoration: underline;
 }
 a:focus {
   outline: thin dotted;
@@ -1181,7 +1147,6 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-
 }
 hr {
   margin-top: 20px;
@@ -1380,7 +1345,7 @@ mark,
   color: #337ab7;
 }
 a.text-primary:hover {
-  color: #C6DBFF;
+  color: #286090;
 }
 .text-success {
   color: #3c763d;
@@ -4024,35 +3989,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-pills > li {
   float: left;
-  height: 60px;
-  margin: 2px;
-  
 }
 .nav-pills > li > a {
   border-radius: 4px;
-  height: 60px;
-  font-size: 28px;
-  color: rgba(200, 200, 200, 1);
-  border: 2px;
-  border-style: solid;
-  border-color: rgba(200, 200, 200, 1);
 }
 .nav-pills > li + li {
   margin-left: 2px;
 }
-.nav-pills > li > a:hover,
-.nav-pills > li > a:focus {
-  color: white;
-  background-color: rgba(30, 75, 153, 1);
-  border: 2px;
-  border-style: solid;
-  border-color: white;
-}
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: white;
-
+  color: #fff;
+  background-color: #337ab7;
 }
 .nav-stacked > li {
   float: none;
@@ -4120,7 +4068,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 80px;
+  min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4228,8 +4176,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 80px;
-  padding: 10px 15px;
+  height: 50px;
+  padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4282,7 +4230,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
-  height: 80px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4439,7 +4386,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-left {
     float: left !important;
-    margin-left: 30px;
   }
   .navbar-right {
     float: right !important;
@@ -4462,10 +4408,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: white;
+  color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: #777;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4891,14 +4837,14 @@ a.label:focus {
 }
 a.badge:hover,
 a.badge:focus {
-  color: white;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: white;
-
+  color: #337ab7;
+  background-color: #fff;
 }
 .list-group-item > .badge {
   float: right;
@@ -4913,6 +4859,7 @@ a.badge:focus {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
+  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5722,13 +5669,6 @@ a.list-group-item-danger.active:focus {
 .embed-responsive-4by3 {
   padding-bottom: 75%;
 }
-#bears {
-  vertical-align: center;
-  margin-top: 
-}
-#announce {
-  text-align: left;
-}
 .well {
   min-height: 20px;
   padding: 19px;
@@ -6131,10 +6071,7 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 100%;
-  height: 600px;
   overflow: hidden;
-  /*!background: url('bears1.png') center center no-repeat fixed;*/
-
 }
 .carousel-inner > .item {
   position: relative;
@@ -6213,7 +6150,7 @@ button.close {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 5%;
+  width: 15%;
   font-size: 20px;
   color: #fff;
   text-align: center;
@@ -6347,8 +6284,7 @@ button.close {
     left: 20%;
     padding-bottom: 30px;
   }
-  .
-  -indicators {
+  .carousel-indicators {
     bottom: 20px;
   }
 }
@@ -6646,65 +6582,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
- 
-
-#custom-bootstrap-menu.navbar-default .navbar-brand {
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    
-}
-#custom-bootstrap-menu.navbar-default .navbar-brand:hover, 
-#custom-bootstrap-menu.navbar-default .navbar-brand:focus {
-   
-}
-#custom-bootstrap-menu.navbar-default {
-    font-size: 22px;
-    background-color: rgba(30, 75, 153, 1);
-    border-width: 0px;
-    border-radius: 0px 0px 4px 4px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    padding: 0px;
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li {
-    vertical-align: bottom;
-    display: inline-block;
-    height: 90px;
-
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(200, 200, 200, 1);
-    background-color: rgba(248, 248, 248, 0);
-    display: inline-block;
-    vertical-align: bottom;
-    line-height:45px;
-    padding-right:10px;
-    padding-left:10px;
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: white;
-    
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: white;
-    
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #9eafcc;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #9eafcc;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #9eafcc;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #1e4b99;
-}
