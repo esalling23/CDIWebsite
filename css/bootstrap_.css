@@ -6660,7 +6660,7 @@ button.close {
    
 }
 #custom-bootstrap-menu.navbar-default {
-    font-size: 22px;
+    font-size: 42px;
     background-color: rgba(30, 75, 153, 1);
     border-width: 0px;
     border-radius: 0px 0px 4px 4px;
@@ -6671,7 +6671,7 @@ button.close {
 #custom-bootstrap-menu.navbar-default .navbar-nav>li {
     vertical-align: bottom;
     display: inline-block;
-    height: 90px;
+    height: 300px;
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
@@ -6679,9 +6679,9 @@ button.close {
     background-color: rgba(248, 248, 248, 0);
     display: inline-block;
     vertical-align: bottom;
-    line-height:45px;
-    padding-right:10px;
-    padding-left:10px;
+    line-height: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
