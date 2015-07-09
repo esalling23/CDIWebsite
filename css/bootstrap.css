@@ -22,6 +22,10 @@
 
 }
 
+#resources.jumbotron > ul {
+  font-size:18px;
+}
+
 #cdiForms.jumbotron {
   padding-right: 5%;
   padding-left: 5%;
