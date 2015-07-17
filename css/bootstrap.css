@@ -1139,12 +1139,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #72A6FF;
+  color: rgba(200, 200, 200, 1);
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #C6DBFF;
+  color: white;
   text-decoration: none;
 }
 a:focus {
@@ -4139,11 +4139,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
+  background-color: rgba(30, 75, 153, 1);
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 200;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
-  border-top: 1px solid transparent;
+  border-top: px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
@@ -4153,15 +4155,28 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
+    display: block;
     border-top: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
+
+  }
+  .navbar-collapse.collapse>ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+  }
+  .navbar-collapse.collapse>li>a {
+    display: block;
+    width: 100%;
   }
   .navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
+      background-color: rgba(30, 75, 153, 1);
+
   }
   .navbar-collapse.in {
     overflow-y: visible;
@@ -4455,7 +4470,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #f8f8f8;
-  border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6304,14 +6318,14 @@ button.close {
   cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  border: 1px solid rgba(200, 200, 200, 1);
   border-radius: 10px;
 }
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #fff;
+  background-color: rgba(200, 200, 200, 1);
 }
 .carousel-caption {
   position: absolute;
@@ -6665,8 +6679,7 @@ button.close {
 }
 #custom-bootstrap-menu.navbar-default {
     background-color: rgba(30, 75, 153, 1);
-    border-width: 0px;
-    border-radius: 0px 0px 4px 4px;
+    
     margin-bottom: 20px;
     margin-top: 10px;
     padding: 0px;
@@ -6678,7 +6691,7 @@ button.close {
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(200, 200, 200, 1);
+    color: ;
     background-color: rgba(248, 248, 248, 0);
     display: inline-block;
     vertical-align: bottom;
@@ -6689,7 +6702,7 @@ button.close {
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: white;
+    color: rgba(200, 200, 200, 1);
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
