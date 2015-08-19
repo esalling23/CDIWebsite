@@ -15,7 +15,7 @@ footer {
 body {
   padding-bottom: 40px;
   color: white;
-  background-color: rgba(30, 75, 153, 1);
+  background-color: rgba(83, 126, 204, 1);
 }
 #sitemap.row {
   font-size: 18px;
@@ -31,6 +31,7 @@ body {
 }
 #bubbles.row {
   margin-bottom: 10%;
+  text-align: center;
 }
 #bubble.col-lg-3 {
   text-align: center;
