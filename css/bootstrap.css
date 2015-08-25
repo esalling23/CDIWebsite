@@ -33,16 +33,17 @@
 
 
 html {
-  background-color: rgba(30, 75, 153, 1);
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+      height: 100%;
+      width: 100%;
 }
 
 body {
+  background-color: rgba(30, 75, 153, 1);
 
   margin: 0;
-  height: 100%;
 }
 
 article,
@@ -6665,7 +6666,7 @@ button.close {
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     left: 0;
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
     width: 200px;
     
 }
@@ -6677,7 +6678,7 @@ button.close {
     background-color: rgba(30, 75, 153, 1);
     
     margin-bottom: 20px;
-    margin-top: 10px;
+    padding-top: 30px;
     padding: 0px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li {

@@ -10,12 +10,16 @@
 footer {
   margin: 0px;
   padding: 0px;
+  background-color: rgba(30, 75, 153, 1);
+  padding: 20px 0px 20px 0px;
+
 }
 
 body {
-  padding-bottom: 40px;
   color: white;
   background-color: rgba(83, 126, 204, 1);
+  height: 100%;
+  width: 100%;
 }
 #sitemap.row {
   font-size: 18px;
@@ -194,7 +198,7 @@ body {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    padding-top: 20px;
   }
   .navbar-wrapper .container {
     padding-right: 15px;
