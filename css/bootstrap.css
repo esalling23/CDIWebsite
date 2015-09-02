@@ -78,10 +78,12 @@ template {
 }
 a {
   background-color: transparent;
+  color: rgba(173, 255, 253, 1);
 }
 a:active,
 a:hover {
   outline: 0;
+  color: rgba(171, 255, 203, 1);
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -6666,7 +6668,7 @@ button.close {
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     left: 0;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 8px;
     width: 200px;
     
 }
@@ -6678,7 +6680,7 @@ button.close {
     background-color: rgba(30, 75, 153, 1);
     
     margin-bottom: 20px;
-    padding-top: 30px;
+    padding-top: 0px;
     padding: 0px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li {
@@ -6696,6 +6698,7 @@ button.close {
     font-size: 24px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-top: 20px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
