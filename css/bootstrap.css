@@ -38,11 +38,13 @@ html {
       -ms-text-size-adjust: 100%;
       height: 100%;
       width: 100%;
+      margin:0;
 }
 
 body {
-  background-color: rgba(30, 75, 153, 1);
-
+  background-color: #515151;
+  height: 100%;
+  width: 100%;
   margin: 0;
 }
 
@@ -1136,12 +1138,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: white;
+  color: #515151;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color:rgba(200, 200, 200, 1);
+  color: white;
   text-decoration: none;
 }
 a:focus {
@@ -3077,9 +3079,9 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: white;
-  background-color: #FF6324;
-  border-color: #FF6324;
+  color: #515151;
+  background-color: white;
+  border-color: white;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -4172,7 +4174,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
-      background-color: rgba(30, 75, 153, 1);
+      background-color: rgb(98, 198, 232);
 
   }
   .navbar-collapse.in {
@@ -6677,7 +6679,7 @@ button.close {
    
 }
 #custom-bootstrap-menu.navbar-default {
-    background-color: rgba(30, 75, 153, 1);
+    background-color: rgb(98, 198, 232);
     
     margin-bottom: 20px;
     padding-top: 0px;
@@ -6690,7 +6692,7 @@ button.close {
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: ;
+    color: #515151;
     background-color: rgba(248, 248, 248, 0);
     display: inline-block;
     vertical-align: bottom;
@@ -6702,7 +6704,7 @@ button.close {
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(200, 200, 200, 1);
+    color: white;
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,

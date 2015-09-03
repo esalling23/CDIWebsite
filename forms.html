@@ -48,22 +48,28 @@
       <div class="jumbotron" id="cdiForms">
         	<ul class="nav nav-pills" id="">
   					<li class="active"><a data-toggle="pill" href="#home">CDI Forms</a></li>
-            <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">English</a>
-              <ul class="dropdown-menu">
-                <li><a href="#eshort">Short Forms</a></li>
-                <li><a href="#elong">Long Forms</a></li>
-                <li><a href="#CDIiii">CDI III</a></li>
+            <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">English <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#eshort" data-toggle="tab">Short Forms</a></li>
+                <li><a href="#elong" data-toggle="tab">Long Forms</a></li>
+                <li><a href="#CDIiii" data-toggle="tab">CDI III</a></li>
               </ul>
             </li>
-            <li><a data-toggle="pill" href="#spanish">Spanish</a></li>
+            <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Spanish <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#sshort" data-toggle="tab">Short Forms</a></li>
+                <li><a href="#slong" data-toggle="tab">Long Forms</a></li>
+                <li><a href="#CDIiii" data-toggle="tab">CDI III</a></li>
+              </ul>
+            </li>
   				</ul>
 
   				<div class="tab-content" id="adapt">
-              <div id="english" class="tab-pane fade">
+              <div id="english" class="tab-pane active">
                 <ul class="nav nav-pills">
-                  <li><a data-toggle="pill" href="#eshort">English Short Forms</a></li>
-                  <li><a data-toggle="pill" href="#elong">English Long Forms</a></li>
-                  <li><a data-toggle="pill" href="#cdiiii">CDI III</a></li>
+                  <li><a id="#eshort">English Short Forms</a></li>
+                  <li><a data-toggle="pill" id="#elong">English Long Forms</a></li>
+                  <li><a data-toggle="pill" id="#cdiiii">CDI III</a></li>
                 </ul>
               </div>
               <div id="spanish" class="tab-pane fade">

@@ -17,7 +17,7 @@ footer {
 
 body {
   color: white;
-  background-color: rgba(17, 130, 255, 1);
+  background-color: #515151;
   height: 100%;
   width: 100%;
 }
@@ -166,8 +166,8 @@ h2 {
 .carousel-inner > .item > img {
   position: absolute;
   top: 5%;
-  left: 5%;
-  max-width: 40%;
+  left: 3%;
+  max-width: 50%;
   height: 300px;
 }
 
