@@ -34,18 +34,19 @@ body {
 
 }
 #bubbles.row {
-  margin-bottom: 10%;
   text-align: center;
 }
 #bubble.col-lg-3 {
   text-align: center;
   padding: 10px;
+  min-height: 400px;
 }
 
 #bubble.col-lg-3 p{
   padding:5%;
   text-align: center;
 }
+
 
 #score {
   color: rgba(17, 130, 255, 1);
@@ -56,7 +57,29 @@ h2 {
   color: rgba(24, 232, 166, 1);
 }
 
+.undernav {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.undernav ul{
+  float: right;
+  list-style: none;
+  font-size: 24px;
+}
+.undernav > .btn {
+  
+}
 
+#link a {
+  color: rgba(24, 232, 166, 1);
+
+}
+
+#link a:hover, 
+#link a:focus {
+  color: white;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */

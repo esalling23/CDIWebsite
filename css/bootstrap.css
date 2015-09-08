@@ -27,7 +27,7 @@
 #cdiForms.jumbotron {
   padding-right: 5%;
   padding-left: 5%;
-  padding-top: 0;
+  padding-top: 5%;
   margin-top: 0;
 }
 
@@ -46,6 +46,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  overflow-x: hidden; 
 }
 
 article,
@@ -3043,7 +3044,7 @@ select[multiple].form-group-lg .form-control {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3080,8 +3081,8 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #515151;
-  background-color: white;
-  border-color: white;
+  background-color: rgba(24, 232, 166, 1);
+  border-color: rgba(24, 232, 166, 1);
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3090,8 +3091,8 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: white;
-  background-color: #FF6324;
-  border-color: #FF6324;
+  background-color: #515151;
+  border-color: #515151;
 }
 .btn-default:active,
 .btn-default.active,
@@ -4046,7 +4047,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
   color: white;
-  background-color: rgba(30, 75, 153, 1);
+  background-color: #515151;
   border: 2px;
   border-style: solid;
   border-color: white;
@@ -4124,7 +4125,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 90px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 /*@media (min-width: 768px) {
@@ -4209,8 +4209,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: -15px;
+    margin-left: -15px;
   }
 }
 .navbar-static-top {
@@ -4456,7 +4456,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-left {
-    float: left !important;
+    float: right !important;
     margin-left: 30px;
   }
   .navbar-right {
@@ -4927,7 +4927,7 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding: 30px 15px;
+  padding: 5% 10%;
   margin-bottom: 30px;
   color: inherit;
 }
@@ -5751,8 +5751,9 @@ a.list-group-item-danger.active:focus {
 .well {
   min-height: 20px;
   padding: 19px;
+  margin-top: 5%;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
+  background-color: #515151;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
@@ -6681,8 +6682,6 @@ button.close {
 }
 #custom-bootstrap-menu.navbar-default {
     background-color: rgb(98, 198, 232);
-    
-    margin-bottom: 20px;
     padding-top: 0px;
     padding: 0px;
 }
