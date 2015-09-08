@@ -14,6 +14,28 @@ footer {
   padding: 20px 0px 20px 0px;
 
 }
+#bates {
+  text-align: center;
+  margin-top: 5%;
+
+}
+#bates img {
+  box-shadow: 5px 5px 2px black;
+  margin-bottom: 5%;
+
+
+}
+#bates.well {
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#bates p {
+  margin-top: 5%;
+  width: 80%;
+  margin: auto;
+}
 
 body {
   color: white;
@@ -67,9 +89,27 @@ h2 {
   list-style: none;
   font-size: 24px;
 }
-.undernav > .btn {
-  
+#contact.btn-default {
+  color: white;
+  background-color: #515151;
 }
+#contact.btn-default:hover,
+#contact.btn-default:focus,
+#contact.btn-default.focus,
+#contact.btn-default:active,
+#contact.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: rgb(98, 198, 232);
+  background-color: #515151;
+}
+
+#frontpage {
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right:5%;
+
+}
+#frontpage 
 
 #link a {
   color: rgba(24, 232, 166, 1);
@@ -249,7 +289,7 @@ h2 {
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 
   /* Bump up size of carousel content */

@@ -3043,7 +3043,7 @@ select[multiple].form-group-lg .form-control {
       -ms-user-select: none;
           user-select: none;
   background-image: none;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   border-radius: 0px;
 }
 .btn:focus,
@@ -4509,7 +4509,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #ddd;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
+  background-color: #515151;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -6714,16 +6714,19 @@ button.close {
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #9eafcc;
+    border-color: #515151;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #9eafcc;
+    border-color: white;
+    background-color: rgb(98, 198, 232);
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #9eafcc;
+    background-color: #515151;
+    border-color: #515151;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #1e4b99;
+    background-color: white;
+    border-color: white;
 }
