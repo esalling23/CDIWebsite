@@ -105,11 +105,10 @@ h2 {
 
 #frontpage {
   margin-bottom: 10%;
-  margin-left: 5%;
-  margin-right:5%;
-
+  padding-left: 5%;
+  padding-right:5%;
+  text-align: center;
 }
-#frontpage 
 
 #link a {
   color: rgba(24, 232, 166, 1);
