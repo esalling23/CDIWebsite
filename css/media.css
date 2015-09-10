@@ -1,4 +1,16 @@
+@media (max-width: 769px){
+    #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+        width: 500px;
+        display: block;
+    }
+}
 
+@media (max-width: 500px) {
+    #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+        width: 300px;
+        display: block;
+    }
+}
 @media (min-width: 798px) and (max-width: 1135px) {
    /* .navbar-collapse.collapse {
         display : none !important;

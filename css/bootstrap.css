@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  background-color: #454545;
+  background-color: #FFE4C2;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -3080,9 +3080,9 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #454545;
-  background-color: #8AA2C8;
-  border-color: #8AA2C8;
+  color: #6499B2;
+  background-color: white;
+  border-color: white;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3090,9 +3090,9 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: white;
-  background-color: #454545;
-  border-color: #454545;
+  color: #B28A58;
+  background-color: white;
+  border-color: white;
 }
 .btn-default:active,
 .btn-default.active,
@@ -4138,7 +4138,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
-  background-color: rgba(30, 75, 153, 1);
+  background-color: #DAF3FF;
   padding-right: 15px;
   padding-left: 15px;
   z-index: 200;
@@ -4174,7 +4174,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
-      background-color:  #DDE8FF;
+      background-color:  #DAF3FF;
 
   }
   .navbar-collapse.in {
@@ -6681,7 +6681,7 @@ button.close {
    
 }
 #custom-bootstrap-menu.navbar-default {
-    background-color: #DDE8FF;
+    background-color: #DAF3FF;
     padding-top: 0px;
     padding: 0px;
 }
@@ -6692,8 +6692,9 @@ button.close {
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: #454545;
-    background-color: #DDE8FF;
+    color: #2E95B2;
+    background-color: #DAF3FF;
+    /*background-color: #2E95B2;*/
     display: inline-block;
     vertical-align: bottom;
     line-height: 45px;
@@ -6704,13 +6705,13 @@ button.close {
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: white;
+    color: #B28A58;
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: white;
+    color: #B28A58;
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
@@ -6719,7 +6720,7 @@ button.close {
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
     border-color: white;
-    background-color: #DDE8FF;
+    background-color: #DAF3FF;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
     background-color: #454545;
