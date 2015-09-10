@@ -39,7 +39,7 @@ footer {
 
 body {
   color: white;
-  background-color: #515151;
+  background-color: #454545;
   height: 100%;
   width: 100%;
 }
@@ -76,7 +76,10 @@ body {
 }
 
 h2 {
-  color: rgba(24, 232, 166, 1);
+  color: #8AA2C8;
+}
+h1 {
+  color: white;
 }
 
 .undernav {
@@ -91,7 +94,7 @@ h2 {
 }
 #contact.btn-default {
   color: white;
-  background-color: #515151;
+  background-color: #454545;
 }
 #contact.btn-default:hover,
 #contact.btn-default:focus,
@@ -99,8 +102,8 @@ h2 {
 #contact.btn-default:active,
 #contact.btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: rgb(98, 198, 232);
-  background-color: #515151;
+  color: #8AA2C8;
+  background-color: #454545;
 }
 
 #frontpage {
@@ -124,7 +127,7 @@ h2 {
 
 /* HOVER.CSS */
 
-.hvr-underline-from-left {
+/*.hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -154,7 +157,7 @@ h2 {
 }
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0;
-}
+}*/
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
