@@ -3,6 +3,12 @@
         width: 500px;
         display: block;
     }
+
+}
+@media (min-width: 798px){
+    #frontpage img{
+        width: 100%;
+    }
 }
 
 @media (max-width: 500px) {
