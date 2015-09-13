@@ -3,9 +3,22 @@
         width: 500px;
         display: block;
     }
+    #bubble.col-lg-3 {
+      text-align: center;
+      padding: 10px;
+      min-height: 550px;
+      font-size: 16px;
+    }
 
 }
-@media (min-width: 798px){
+@media (max-width: 768px) {
+    #frontpage img{
+        width: 100%;
+        height: auto;
+        margin-top: 1%;
+    }
+}
+@media (max-width: 798px){
     #frontpage img{
         width: 100%;
     }
@@ -17,10 +30,21 @@
         display: block;
     }
 }
+@media (min-width: 1135px) {
+
+    #frontpage img{
+        width: 100%;
+    }
+}
 @media (min-width: 798px) and (max-width: 1135px) {
    /* .navbar-collapse.collapse {
         display : none !important;
     }*/
+
+    #frontpage img{
+        width: 100%;
+    }
+
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
         margin-left: -15px;
