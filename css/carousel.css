@@ -85,7 +85,18 @@ body {
   padding-top: 5%;
 }
 #welladapt {
+  margin-top: 0px;
   padding: 5%;
+}
+
+#languages a{
+  width: 400px;
+}
+#languages ul{
+  min-width: 300px;
+  width: ;
+  height: 90px;
+
 }
 
 #score {
@@ -120,7 +131,7 @@ h3 {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 24px;
+  font-size: 28px;
 }
 #contact.btn-default {
   color: #6499B2;
