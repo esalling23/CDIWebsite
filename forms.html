@@ -66,31 +66,36 @@
             
 
      <div class="jumbotron" id="cdiForms">
-        	<ul class="nav nav-pills">
-  					<li class="active"><a class="hvr-border-fade" data-toggle="pill" href="#cdi">CDI Forms</a></li>
-            <li><a class="hvr-border-fade" data-toggle="pill" href="#english">English</a></li>
-            <li><a class="hvr-border-fade" data-toggle="pill" href="#spanish">Spanish</a></li>
-  				</ul>
+        <div class="row">
+          <div class="col-lg-5 col-sm-5" id="languages">
+          	<ul class="nav nav-pills">
+    					<li class="active"><a class="hvr-border-fade" data-toggle="pill" href="#cdi">CDI Forms</a></li>
+              <!-- <li><a class="hvr-border-fade" data-toggle="pill" href="#english">English</a></li>
+              <li><a class="hvr-border-fade" data-toggle="pill" href="#spanish">Spanish</a></li> -->
+              <li><a class="hvr-border-fade" data-toggle="pill" href="#elong">English Long Forms</a></li>
+              <li><a class="hvr-border-fade" data-toggle="pill" href="#eshort">English Short Forms</a></li>
+              <li><a class="hvr-border-fade" data-toggle="pill" href="#cdiiii">CDI III</a></li>
+              <li><a class="hvr-border-fade" data-toggle="pill" href="#slong">Spanish Long Forms</a></li>
+              <li><a class="hvr-border-fade" data-toggle="pill" href="#sshort">Spanish Short Forms</a></li>
+    				</ul>
+          </div>
 
-  				<div class="tab-content" id="adapt">
+  				<!-- <div class="tab-content" id="adapt">
               <div id="english" class="tab-pane fade">
                 <ul class="nav nav-pills">
-                  <li><a class="hvr-border-fade" data-toggle="pill" href="#elong">English Long Forms</a></li>
-                  <li><a class="hvr-border-fade" data-toggle="pill" href="#eshort">English Short Forms</a></li>
-                  <li><a class="hvr-border-fade" data-toggle="pill" href="#cdiiii">CDI III</a></li>
+                  
                 </ul>
               </div>
               <div id="spanish" class="tab-pane fade">
                 <ul class="nav nav-pills">
-                  <li><a class="hvr-border-fade" data-toggle="pill" href="#slong">Spanish Long Forms</a></li>
-                  <li><a class="hvr-border-fade" data-toggle="pill" href="#sshort">Spanish Short Forms</a></li>
+                  
                 </ul>
               </div>
-          </div>
-
+          </div> -->
+        <div class="col-lg-7 col-sm-7">
           <div class="tab-content">
               <div id="cdi" class="tab-pane fade in active">
-                <div class="well">
+                <div class="well" id="welladapt">
                   <div class="row" id="formRows">
                     <div class="col-lg-8">
                       <h2>CDI Forms</h2>
@@ -106,7 +111,7 @@
                 </div>
               </div>
               <div id="eshort" class="tab-pane fade">
-                <div class="well">
+                <div class="well" id="welladapt">
                   <div class="row" id="formRows">
                     <div class="col-lg-8">
                       <h2>English Short Forms</h2>
@@ -124,7 +129,7 @@
                 </div>
               </div>
               <div id="elong" class="tab-pane fade">
-                <div class="well">
+                <div class="well" id="welladapt">
                   <div class="row" id="formRows">
                     <div class="col-lg-8">
                       <h2>English Long Forms</h2>
@@ -142,7 +147,7 @@
                 </div>
               </div>
               <div id="cdiiii" class="tab-pane fade">
-                <div class="well">
+                <div class="well" id="welladapt">
                   <div class="row" id="formRows">
                     <div class="col-lg-8">
                       <h2>CDI III</h2>
@@ -160,39 +165,45 @@
                 </div>
               </div>
               <div id="sshort" class="tab-pane fade">
-                <div class="row" id="formRows">
-                  <div class="col-lg-8">
-                    <h2>Short Versions in Spanish</h2>
-                    <p>One page short form versions of each of these instruments have also been developed. The infant form (Version Breve del Inventario del Desarrollo de Habilidades Comuncativas - Inventario I) is comprised of a 105-word vocabulary checklist with separate columns for comprehension and production. The toddler version (Version Breve del Inventario del Desarrollo de Habilidades Comunicativas - Palabras y Enunciados) contains a 100-word productive vocabulary checklist and a question about combining words. The short forms can serve as an alternative to the full version when rapid assessment of a child's language level is needed or when parental literacy is low. </p>
-                    <p>They may be ordered at a cost of &#36;.35 each from:
-                    <br>Larry Fenson, Department of Psychology, 5500 Campanile Drive, San Diego State University, San Diego, Ca 92182-4910
-                    <br>Phone: (619) 594-6614
-                    <br>Fax: (619) 594-6234
-                    <br>Email: <a href="mailto:lfenson@gmail.com" target="_top">lfenson@gmail.com</a></p>
-                  </div>
-                  <div class="col-lg-4">
-                    <img id="formsimg" src="images/spaninfshort.jpg" style="width:320px; height: 420px;"/>
+                <div class="well" id="welladapt">
+                  <div class="row" id="formRows">
+                    <div class="col-lg-8">
+                      <h2>Short Versions in Spanish</h2>
+                      <p>One page short form versions of each of these instruments have also been developed. The infant form (Version Breve del Inventario del Desarrollo de Habilidades Comuncativas - Inventario I) is comprised of a 105-word vocabulary checklist with separate columns for comprehension and production. The toddler version (Version Breve del Inventario del Desarrollo de Habilidades Comunicativas - Palabras y Enunciados) contains a 100-word productive vocabulary checklist and a question about combining words. The short forms can serve as an alternative to the full version when rapid assessment of a child's language level is needed or when parental literacy is low. </p>
+                      <p>They may be ordered at a cost of &#36;.35 each from:
+                      <br>Larry Fenson, Department of Psychology, 5500 Campanile Drive, San Diego State University, San Diego, Ca 92182-4910
+                      <br>Phone: (619) 594-6614
+                      <br>Fax: (619) 594-6234
+                      <br>Email: <a href="mailto:lfenson@gmail.com" target="_top">lfenson@gmail.com</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                      <img id="formsimg" src="images/spaninfshort.jpg" style="width:320px; height: 420px;"/>
+                    </div>
                   </div>
                 </div>
               </div>
               <div id="slong" class="tab-pane fade">
-                <div class="row" id="formRows">
-                  <div class="col-lg-8">
-                    <h2>Long Versions in Spanish</h2>
-                    <h3>Palabras &amp; Gestos and Palabras &amp; Enunciados</h3>
-                    <p>Words &amp; Gestures (Infant) and Words &amp; Sentences (Toddler) versions have also been developed in Spanish. A norming study has been completed, and a techinical manual is available from Pail H. Brookes Publishing.</p>
-                    <p>To order the manual or forms:
-                        <br>Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)
-                        <br>Fax 1-410-337-8539
-                        <br>Visit them online at www.brookespublishing.com/cdi
-                      </p>
-                    </div>
-                    <div class="col-lg-4">
-                      <img id="formsimg" src="images/slong2.png" onmouseover="this.src='images/slong1.png'" onmouseout="this.src='images/slong2.png'" style="width:320px; height: 420px;"/>
-                    </div>
+                <div class="well" id="welladapt">
+                  <div class="row" id="formRows">
+                    <div class="col-lg-8">
+                      <h2>Long Versions in Spanish</h2>
+                      <h3>Palabras &amp; Gestos and Palabras &amp; Enunciados</h3>
+                      <p>Words &amp; Gestures (Infant) and Words &amp; Sentences (Toddler) versions have also been developed in Spanish. A norming study has been completed, and a techinical manual is available from Pail H. Brookes Publishing.</p>
+                      <p>To order the manual or forms:
+                          <br>Call toll-free 1-800-638-3775 (9:00 a.m. to 5:00 p.m. ET, Monday through Friday)
+                          <br>Fax 1-410-337-8539
+                          <br>Visit them online at www.brookespublishing.com/cdi
+                        </p>
+                      </div>
+                      <div class="col-lg-4">
+                        <img id="formsimg" src="images/slong2.png" onmouseover="this.src='images/slong1.png'" onmouseout="this.src='images/slong2.png'" style="width:320px; height: 420px;"/>
+                      </div>
+                  </div>
                 </div>
               </div>
           </div>
+        </div>
+      </div>
 
       </div> 
       <!-- FOOTER -->
