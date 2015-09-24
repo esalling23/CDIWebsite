@@ -6717,19 +6717,19 @@ button.close {
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #454545;
+    border-color: #2E95B2;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    border-color: white;
+    border-color: #B28A58;
     background-color: #DAF3FF;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #454545;
-    border-color: #454545;
+    background-color: #2E95B2;
+    border-color: #2E95B2;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: white;
-    border-color: white;
+    background-color: #B28A58;
+    border-color: #B28A58;
 }
