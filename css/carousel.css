@@ -91,7 +91,8 @@ body {
 
 #languages a{
   width: 350px;
-  height: 70px;
+  height: 50px;
+  font-size: 20px;
 }
 #languages ul{
   min-width: 300px;
@@ -171,12 +172,18 @@ h3 {
 }
 #link a {
   color: #6499B2;
-
+  font-size: 22px;
 }
 
 #link a:hover, 
 #link a:focus {
   color: #B28A58;
+}
+#link {
+  margin-bottom: 5%;
+}
+#adaptcontact {
+  margin-top:5%;
 }
 
 
