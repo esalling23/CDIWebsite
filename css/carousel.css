@@ -82,7 +82,7 @@ body {
   padding: 2%;
 }
 #formsimg {
-  padding-top: 5%;
+  
 }
 #welladapt {
   margin-top: 0px;
@@ -98,7 +98,7 @@ body {
 #languages ul{
   min-width: 300px;
   width: ;
-  height: 100%;
+  height: 80%;
   overflow: hidden;
   overflow-y: scroll;
   border: 1px solid #B28A58;
@@ -113,6 +113,11 @@ body {
 
 #score {
   color: #B28A58;
+
+}
+#scoresamples ul{
+  list-style-type: none;
+  margin-left: -5%;
 
 }
 
