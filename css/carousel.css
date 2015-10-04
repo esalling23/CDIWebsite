@@ -16,6 +16,13 @@ footer {
   padding: 20px 0px 20px 0px;
 
 }
+.news li {
+  padding-top: 1%;
+}
+.news ul {
+  list-style-type: none;
+  padding: 0;
+}
 
 #bates {
   text-align: center;
@@ -117,7 +124,7 @@ body {
 }
 #scoresamples ul{
   list-style-type: none;
-  margin-left: -5%;
+  padding: 0;
 
 }
 
@@ -189,7 +196,7 @@ h3 {
   color: #B28A58;
 }
 #link {
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 #adaptcontact {
   margin-top:5%;
