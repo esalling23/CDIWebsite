@@ -16,6 +16,11 @@ footer {
   padding: 20px 0px 20px 0px;
 
 }
+#fillables {
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top:5%;
+}
 .news li {
   padding-top: 1%;
 }

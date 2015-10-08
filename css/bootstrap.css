@@ -4029,7 +4029,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li {
   float: left;
   height: 60px;
-  margin: 2px;
+  margin: 0px;
   
 }
 .nav-pills > li > a {
@@ -4041,7 +4041,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-style: none;
 }
 .nav-pills > li + li {
-  margin-left: 2px;
+  margin-left: 0px;
 }
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
