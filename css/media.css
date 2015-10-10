@@ -1,4 +1,4 @@
-@media (max-width: 769px){
+@media (max-width: 767px){
     #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
         width: 500px;
         display: block;
@@ -6,12 +6,21 @@
     #bubble.col-lg-3 {
       text-align: center;
       padding: 10px;
-      min-height: 550px;
+      min-height: 450px;
       font-size: 16px;
+    }
+    #bubble.col-lg-3 p{
+    padding-top:0px;
+      padding:5%;
+      text-align: center;
+      height: 200px;
     }
     #languages ul {
         height: 40%;
         margin-bottom: 5%;
+    }
+    #Copywrite p {
+        padding-left: 3%;
     }
 
 }
@@ -21,10 +30,22 @@
         height: auto;
         margin-top: 1%;
     }
+    #bubble.col-lg-3 p{
+    padding-top:0px;
+      padding:5%;
+      text-align: center;
+      height: 200px;
+    }
 }
 @media (max-width: 798px){
     #frontpage img{
         width: 100%;
+    }
+    #bubble.col-lg-3 p{
+    padding-top:0px;
+      padding:5%;
+      text-align: center;
+      height: 200px;
     }
 }
 
@@ -44,7 +65,32 @@
    /* .navbar-collapse.collapse {
         display : none !important;
     }*/
-
+    #boardbubble.col-lg-3 {
+      text-align: center;
+      padding: 10px;
+      padding-top: 0;
+      min-height: 300px;
+      font-size: 16px;
+    }
+    #sitemap ul {
+        padding-left: 7%;
+    }
+    
+    #boardbubble.col-lg-3 h3 {
+      height: 50px;
+      padding-top: 5%;
+    }
+    #boardbubble.col-lg-3 p{
+      padding:5%;
+      text-align: center;
+      height: 120px;
+    }
+    #bubble.col-lg-3 p{
+    padding-top:0px;
+      padding:5%;
+      text-align: center;
+      height: 200px;
+    }
     #frontpage img{
         width: 100%;
     }
@@ -76,11 +122,14 @@
     }
 }
 @media (max-width: 523px){
-    #foot ul {
+    /*#foot ul {
         margin-left:-30px;
+    }*/
+    #Copywrite p {
+        padding-left: 4%;
     }
     .jumbotron p{
-        font-size: 12px;
+        font-size: 16px;
     }
     .undernav a{
         font-size: 10px;

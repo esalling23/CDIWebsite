@@ -3,18 +3,22 @@
 /* Padding below the footer and lighter body text */
 
 #Copywrite {
-  margin-bottom: 5%;
-   margin-left: 5%;
+  margin-bottom: 1%;
+   margin-left: 3%;
    margin-right: 5%;
   
 }
+
 footer {
   margin: 0px;
-  padding-right: 5%;
+  padding-right: 3%;
   padding: 0px;
   background-color: #DAF3FF;
   padding: 20px 0px 20px 0px;
 
+}
+#content {
+  padding-bottom: 2%;
 }
 #fillables {
   text-align: center;
@@ -61,40 +65,69 @@ body {
 }
 #sitemap.row {
   font-size: 18px;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  margin-left: 1%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-left: 0%;
 
+}
+#sitemap ul {
+  padding-left: 5%;
 }
 #foot.col-lg-3 {
   min-height: 150px;
 }
 #sitemap.row li {
   list-style-type: none;
+  padding:0px;
+}
 
-}
-#bubble h2 {
-  min-height: 70px;
-}
 #bubbles.row {
   text-align: center;
+}
+#bubbleimg {
+  margin-top: 20%;
+}
+#boardbubble.col-lg-3 {
+  text-align: center;
+  padding: 10px;
+  min-height: 300px;
+  font-size: 16px;
+}
+#boardbubble.col-lg-3 h3 {
+  height: 50px;
+  padding-top: 5%;
+}
+#boardbubble.col-lg-3 p{
+  padding:5%;
+  text-align: center;
+  height: 120px;
 }
 #bubble.col-lg-3 {
   text-align: center;
   padding: 10px;
-  min-height: 400px;
+  min-height: 600px;
   font-size: 16px;
 }
 
 #bubble.col-lg-3 p{
   padding:5%;
   text-align: center;
+  height: 260px;
+}
+.title h2 {
+
+
+}
+.title {
+  height: 70px;
+  margin-top: 5%;
+
 }
 #formRows {
   padding: 2%;
 }
 #formsimg {
-  
+  margin-top: 5%
 }
 #welladapt {
   margin-top: 0px;
@@ -202,6 +235,10 @@ h3 {
 }
 #link {
   margin-bottom: 0%;
+}
+#minorlink a{
+  font-weight: 400;
+  font-size: 20px;
 }
 #adaptcontact {
   margin-top:5%;
