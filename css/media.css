@@ -34,7 +34,10 @@
     padding-top:0px;
       padding:5%;
       text-align: center;
-      height: 200px;
+      height: 150px;
+    }
+    #bubble #link {
+        margin-bottom: 5%;
     }
 }
 @media (max-width: 798px){
@@ -45,7 +48,7 @@
     padding-top:0px;
       padding:5%;
       text-align: center;
-      height: 200px;
+      height: 150px;
     }
 }
 
@@ -53,6 +56,12 @@
     #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
         width: 300px;
         display: block;
+    }
+    #bubble.col-lg-3 p{
+    padding-top:0px;
+      padding:5%;
+      text-align: center;
+      height: 200px;
     }
 }
 @media (min-width: 1135px) {

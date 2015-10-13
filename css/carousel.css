@@ -111,8 +111,9 @@ body {
 
 #bubble.col-lg-3 p{
   padding:5%;
+  margin-bottom: 0px;
   text-align: center;
-  height: 260px;
+  height: 240px;
 }
 .title h2 {
 
@@ -243,6 +244,16 @@ h3 {
 #adaptcontact {
   margin-top:5%;
 }
+#resources ul {
+  list-style-type: ;
+  padding: 0;
+  margin-left: 3%;
+  font-size: 16px;
+}
+#resources li {
+  margin-bottom: 1%;
+}
+
 
 
 /* HOVER.CSS */
