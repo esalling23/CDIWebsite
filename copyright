@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Contact Us -- MacArthur Bates Communicative Development Inventories</title>
+<title>Contact Us -- MacArthur-Bates Communicative Development Inventories</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -106,7 +106,7 @@
         </div>
           <div id="Copywrite">
             <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>&copy; <a href="copyright.html">2003 CDI Advisory Board</a> <br>&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <p>&copy; <a href="copyright.html">2015 CDI Advisory Board</a> <br>&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </div>
       </footer>
 <!-- /.container -->
