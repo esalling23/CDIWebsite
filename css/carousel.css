@@ -226,7 +226,7 @@ h3 {
   width: 120%;
 }
 #link a {
-  color: #6499B2;
+  color: #825119;
   font-size: 22px;
 }
 
@@ -238,6 +238,13 @@ h3 {
   margin-bottom: 0%;
 }
 #minorlink a{
+  color: #825119;
+  font-weight: 400;
+  font-size: 20px;
+}
+#minorlink a:hover,
+#minorlink a:focus:{
+  color: #B28A58;
   font-weight: 400;
   font-size: 20px;
 }
