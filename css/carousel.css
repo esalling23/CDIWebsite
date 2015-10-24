@@ -243,7 +243,7 @@ h3 {
   font-size: 20px;
 }
 #minorlink a:hover,
-#minorlink a:focus:{
+#minorlink a:focus {
   color: #B28A58;
   font-weight: 400;
   font-size: 20px;
