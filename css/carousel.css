@@ -57,12 +57,13 @@ footer {
 }
 
 body {
-  /*color: #6499B2;*/
-  color: #5A8AC8;
+  color: #6499B2;
+  /*color: #5A8AC8;*/
   background-color: white;
   /*background-color: #FFE4C2;*/
   height: 100%;
   width: 100%;
+  font-weight: 500px;
 }
 #sitemap.row {
   font-size: 18px;
