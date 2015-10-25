@@ -6694,7 +6694,7 @@ button.close {
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: #2E95B2;
+    color: #2C6B97;
     background-color: #DAF3FF;
     /*background-color: #2E95B2;*/
     display: inline-block;
@@ -6707,13 +6707,13 @@ button.close {
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: #B28A58;
+    color:  #825119;
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: #B28A58;
+    color:  #825119;
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
