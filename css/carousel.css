@@ -113,6 +113,10 @@ body {
 #boardbubble.col-lg-3 a{
   font-size: 20px;
 }
+#boardbubble.col-lg-3 a:hover, 
+#boardbubble.col-lg-3 a:focus{
+  font-size: 20px;
+}
 #bubble.col-lg-3 {
   text-align: center;
   padding: 10px;
