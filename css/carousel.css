@@ -121,14 +121,14 @@ body {
   text-align: center;
   padding: 10px;
   min-height: 600px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #bubble.col-lg-3 p{
   padding:5%;
   margin-bottom: 0px;
   text-align: center;
-  height: 240px;
+  height: 300px;
 }
 .title h2 {
 
