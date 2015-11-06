@@ -6696,7 +6696,7 @@ button.close {
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: #2C6B97;
+    color: #825119;
     background-color: #DAF3FF;
     /*background-color: #2E95B2;*/
     display: inline-block;
@@ -6709,29 +6709,29 @@ button.close {
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: #825119;
+    color: #B28A58;
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color:  #825119;
+    color:  #B28A58;
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #2C6B97;
+    border-color: #825119;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    border-color: #825119;
+    border-color: #B28A58;
     background-color: #DAF3FF;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #2C6B97;
+    background-color: #825119;
     border-color: #825119;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #825119;
-    border-color: #825119;
+    background-color: #B28A58;
+    border-color: #B28A58;
 }
