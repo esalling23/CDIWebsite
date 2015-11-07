@@ -283,16 +283,19 @@ h3 {
   margin-top:5%;
 }
 #resources ul {
-  list-style-type: ;
+  list-style-type: none;
   padding: 0;
-  margin-left: 3%;
+
+  margin:0;
   font-size: 16px;
 }
-#resources li {
-  margin-bottom: 1%;
+.links li {
+  padding-bottom: 1%;
+
 }
-
-
+.links{
+  margin-top: 2%;
+}
 
 /* HOVER.CSS */
 
