@@ -150,6 +150,31 @@ body {
   padding: 5%;
   min-height: 100%;
 }
+#formsLanguages a{
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  color: #825119;
+}
+#formsLanguages a:hover,
+#formsLanguages a:hover{
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  color: #B28A58;
+}
+#formsLanguages ul{
+  min-width: 300px;
+  width: ;
+  height: 80%;
+  overflow: hidden;
+  overflow-y: nome;
+  border: 1px solid #825119;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+
+}
 
 #languages a{
   width: 400px;
