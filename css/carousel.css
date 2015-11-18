@@ -2,6 +2,20 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.jumbotron{
+	padding-left:3%;
+	padding-top:0;	
+	margin: 0;
+}
+#cdiForms{
+	margin:0;
+	padding: 0;	
+}
+#adaptRow.row{
+	margin: 0;
+	padding: 0;	
+}
+
 #Copywrite {
   margin-bottom: 1%;
    margin-left: 3%;
@@ -239,7 +253,7 @@ h3 {
 
 .undernav {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   padding: 0;
 }
 .undernav li{
@@ -254,6 +268,7 @@ h3 {
   padding: 0;
   list-style: none;
   font-size: 26px;
+  padding-bottom: 40px;
 }
 #contact.btn-default {
   color:#825119;
