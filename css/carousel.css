@@ -283,21 +283,25 @@ h3 {
   color: #B28A58;
   background-color: white;
 }
-#frontpage.jumbotron{
-  margin-bottom: 5%;
-  padding-bottom: 0;
-}
-#frontpage {
+
+.frontpage {
   margin-bottom: 0%;
   
   text-align: center;
 }
-#frontpage.well {
+.frontpage p {
+  font-size: 26px;
+  margin-bottom:3%;
+}
+.frontpage h1 {
+  font-size: 32px;
+}
+.frontpage.well {
   margin-top: 0;
 }
-#frontpage img {
-  margin-top: -50px;
-  width: 120%;
+.frontpage img {
+  margin-top: 0;
+  width: 100%;
 }
 #link a {
   color: #825119;
