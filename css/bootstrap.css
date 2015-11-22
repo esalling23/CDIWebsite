@@ -6704,6 +6704,7 @@ button.close {
     vertical-align: bottom;
     line-height: 45px;
     font-size: 24px;
+    font-style: bold;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
@@ -6711,12 +6712,16 @@ button.close {
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
     color: #B28A58;
+        font-style: bold;
+
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
     color:  #B28A58;
+        font-style: bold;
+
     
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
