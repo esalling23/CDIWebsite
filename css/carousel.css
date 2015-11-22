@@ -169,7 +169,7 @@ body {
   width: 400px;
   height: 50px;
   font-size: 20px;
-  color: #825119;
+  color: #633E13;
 }
 #formsLanguages a:hover,
 #formsLanguages a:hover{
@@ -183,8 +183,8 @@ body {
   width: ;
   height: 80%;
   overflow: hidden;
-  overflow-y: nome;
-  border: 1px solid #825119;
+  overflow-y: none;
+  border: 1px solid #633E13;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
@@ -195,7 +195,7 @@ body {
   width: 400px;
   height: 50px;
   font-size: 20px;
-  color: #825119;
+  color: #633E13;
 }
 #languages a:hover,
 #languages a:hover{
@@ -210,7 +210,7 @@ body {
   height: 80%;
   overflow: hidden;
   overflow-y: scroll;
-  border: 1px solid #825119;
+  border: 1px solid #633E13;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
@@ -279,7 +279,7 @@ h3 {
   padding-bottom: 40px;
 }
 #contact.btn-default {
-  color:#825119;
+  color:#633E13;
   background-color: #DAF3FF;
   font-size: 16px;
 }
@@ -303,7 +303,7 @@ h3 {
   margin-bottom:3%;
 }
 .frontpage h1 {
-  font-size: 38px;
+  font-size: 42px;
 }
 .frontpage.well {
   margin-top: 0;
@@ -313,7 +313,7 @@ h3 {
   width: 100%;
 }
 #link a {
-  color: #825119;
+  color: #633E13;
   font-size: inherit;
   font-weight: 500px;
 }
@@ -329,7 +329,7 @@ h3 {
   font-size: inherit;
 }
 #minorlink a{
-  color: #825119;
+  color: #633E13;
   font-weight: 500px;
   font-size: inherit;
 

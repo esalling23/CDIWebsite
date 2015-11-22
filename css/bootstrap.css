@@ -6697,14 +6697,14 @@ button.close {
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: #825119;
+    color: #633E13;
     background-color: #DAF3FF;
     /*background-color: #2E95B2;*/
     display: inline-block;
     vertical-align: bottom;
     line-height: 45px;
     font-size: 24px;
-    font-style: bold;
+    font-weight: 700;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
