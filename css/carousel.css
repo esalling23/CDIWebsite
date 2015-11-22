@@ -53,22 +53,23 @@ footer {
   margin-top: 5%;
 
 }
-#bates img {
-  box-shadow:;
-  border: 2px solid #2C6B97;
-  margin-bottom: 5%;
+.batesImg {
+  text-align: center;
+}
+.batesImg img{
+border: 2px solid #2C6B97;
+  margin-bottom: 0;
   padding: 1%;
-
 
 }
 #bates.well {
   width: 60%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 1%;
   margin-bottom: 10%;
 }
 #bates p {
-  margin-top: 5%;
+  margin-top: 1%;
   width: 80%;
   margin: auto;
 }
@@ -215,6 +216,13 @@ body {
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 
 }
+.bear {
+  background: url(images/bearbrown.jpg) no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+}
 .langImages{
 margin:0 auto;
 text-align: center;
@@ -273,6 +281,7 @@ h3 {
 #contact.btn-default {
   color:#825119;
   background-color: white;
+  font-size: 16px;
 }
 #contact.btn-default:hover,
 #contact.btn-default:focus,
