@@ -98,7 +98,7 @@
     padding-top:0px;
       padding:5%;
       text-align: center;
-      height: 200px;
+      height: 240px;
     }
     #frontpage img{
         width: 100%;
@@ -115,12 +115,22 @@
         line-height: 65px;
     }
 }
+@media (min-width: 991px) {
+#bubble.col-lg-3 p{
+    padding-top:0px;
+      padding:5%;
+      text-align: center;
+      height: 200px;
+    }
+
+}
 @media (min-width: 768px) and (max-width: 798px) {
     /*.navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
         margin-left: -15px;
         padding-left:0px;
     }*/
+
     #custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
         font-size: 18px;
         padding: 10px;
