@@ -182,8 +182,8 @@ body {
 }
 #formsLanguages ul{
   min-width: 300px;
-  width: ;
-  height: 80%;
+  margin-bottom: 5%;
+  height: 95%;
   overflow: hidden;
   overflow-y: none;
   border: 1px solid #633E13;
@@ -218,13 +218,8 @@ body {
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 
 }
-.bear {
-  background: url(images/bearbrown.jpg) no-repeat;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
 
-}
+
 .langImages{
 margin:0 auto;
 text-align: center;
